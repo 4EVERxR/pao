@@ -142,7 +142,7 @@ Tabs.MainTab:Toggle({
                     task.wait(0.1)
                     VirtualInputManager:SendKeyEvent(false, Enum.KeyCode.Space, false, game)
                     
-                    task.wait(1)
+                    task.wait(900)
                 end
             end)
         else
